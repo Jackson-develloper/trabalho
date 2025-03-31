@@ -1,0 +1,82 @@
+/* Define o cabeçalho */
+.container-cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+/* Ajusta a logo */
+.logo-container {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 10px; /* Garante espaço entre a logo e os links */
+}
+
+.logo {
+    width: 300px; /* Aumenta o tamanho da logo */
+    height: auto;
+}
+
+/* Estiliza os links de navegação */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os links */
+    width: 100%;
+    margin-bottom: 20px; /* Garante espaço entre os links e a imagem */
+}
+
+/* Estilização padrão dos links */
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Botões curvados para "Nossa Causa" e "Doe Agora" */
+.link1, .link2 {
+    display: inline-block;
+    background-color: #FFD700;
+    color: black;
+    padding: 10px 6px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.link1:hover, .link2:hover {
+    background-color: #FFC107;
+}
+
+/* Garante que a imagem fique abaixo da navegação */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px; /* Ajuste para evitar sobreposição */
+}
+
+/* Centraliza a imagem da tela inicial */
+.imagem-da-tela-inicial {
+    width: 100%;
+    text-align: right;
+
+
+}
+
+.imagem-da-tela-inicial img {
+    width: 80%;
+    max-width: 700px;
+   
+}
+
+.rodape {
+    background-color: rgb(255, 166, 0);
+}
