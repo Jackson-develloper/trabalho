@@ -1,0 +1,122 @@
+/* Reset básico de margem e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define o cabeçalho */
+.container-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white; /* Fundo escuro */
+}
+
+.logo-container img {
+    width: 150px; /* Ajuste o tamanho da logo */
+    height: auto;
+    background-color: #282828; /* Fundo da logo para combinar com o fundo da página */
+    border-radius: 8px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFD700; /* Cor dourada */
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+nav a:hover {
+    color: #fff;
+    border-bottom: 2px solid #FFD700; /* Destaque com borda dourada */
+}
+
+/* Estilização do conteúdo principal */
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Imagem de capa */
+.imagem-da-tela-inicial img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Categoria de direcionamento */
+.Categoria-de-direcionamento {
+    display: flex;
+    justify-content: flex-start; /* Alinha as imagens à esquerda */
+    gap: 20px;
+    margin-top: 50px;
+    padding: 0 40px;
+}
+
+.Categoria-de-direcionamento img {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+   
+}
+
+/* Rodapé */
+.rodape {
+    background-color:rgb(255, 153, 0);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape .empresas p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container-cabecalho {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Categoria-de-direcionamento {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 20px;
+        background-color: #333;
+    }
+
+    .Categoria-de-direcionamento img {
+        width: 80%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+}
+
+/* Corpo da página */
+body {
+    background-color: white; /* Cor de fundo da página */
+    color: #fff; /* Cor do texto */
+    font-family: Arial, sans-serif;
+}
+/* doação 1 */
+
+
