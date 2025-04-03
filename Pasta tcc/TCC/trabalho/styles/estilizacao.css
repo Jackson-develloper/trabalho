@@ -35,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #fff;
+    color: black;
     border-bottom: 2px solid #FFD700; /* Destaque com borda dourada */
 }
 
@@ -115,6 +115,6 @@ main {
 /* Corpo da página */
 body {
     background-color: white; /* Cor de fundo da página */
-    color: #fff; /* Cor do texto */
+   
     font-family: Arial, sans-serif;
 }
