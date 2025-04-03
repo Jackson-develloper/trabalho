@@ -74,7 +74,7 @@ main {
 
 /* Rodapé */
 .rodape {
-    background-color: #333;
+    background-color: rgb(255, 153, 0);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -115,6 +115,5 @@ main {
 /* Corpo da página */
 body {
     background-color: white; /* Cor de fundo da página */
-    color: #fff; /* Cor do texto */
     font-family: Arial, sans-serif;
 }
