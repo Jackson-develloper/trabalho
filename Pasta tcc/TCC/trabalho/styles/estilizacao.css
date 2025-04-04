@@ -122,6 +122,6 @@ main {
 /* Corpo da página */
 body {
     background-color: white; /* Cor de fundo da página */
-   
+    margin: 0;
     font-family: Arial, sans-serif;
 }
