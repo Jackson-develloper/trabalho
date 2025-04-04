@@ -17,11 +17,15 @@
 .logo-container img {
     width: 150px; /* Ajuste o tamanho da logo */
     height: auto;
-    background-color: #282828; /* Fundo da logo para combinar com o fundo da página */
+    background-color: #ffffff; /* Fundo da logo para combinar com o fundo da página */
     border-radius: 8px;
 }
+.texto-complemento {
+    margin-left: -725px;
+}
 
-nav {
+
+nav { 
     display: flex;
     gap: 20px;
 }
