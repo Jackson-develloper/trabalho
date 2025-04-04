@@ -78,12 +78,15 @@ main {
     color: #fff;
     padding: 20px;
     text-align: center;
+    
 }
 
 .rodape .empresas p {
     margin: 10px 0;
     font-weight: bold;
-}
+    display: inline-flex;
+    padding: 4%;
+    }
 
 /* Responsividade */
 @media (max-width: 768px) {
