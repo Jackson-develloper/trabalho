@@ -20,10 +20,18 @@
     background-color: #ffffff; /* Fundo da logo para combinar com o fundo da página */
     border-radius: 8px;
 }
-.texto-complemento {
+.texto-complemento1 {
     margin-left: -1350px;
 }
-
+.texto-complemento2 {
+    margin-left: -1267px;
+}
+.texto-complemento3 {
+    margin-left: -1282px;
+}
+.texto-complemento4 {
+    margin-left: -1282px;
+}
 
 nav { 
     display: flex;
