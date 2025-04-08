@@ -126,3 +126,14 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
+
+
+.texto-complemento {
+    margin-left: -1300px; /* Pequeno espaço entre a logo e o texto */
+    font-weight: bold;
+    color: black; /* Ajuste conforme a identidade visual */
+}
+
+
+
