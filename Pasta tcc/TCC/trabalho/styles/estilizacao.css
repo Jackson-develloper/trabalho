@@ -15,13 +15,17 @@
 }
 
 .logo-container img {
-    width: 150px; /* Ajuste o tamanho da logo */
+    width: 180px; /* Ajuste o tamanho da logo */
     height: auto;
-    background-color: #282828; /* Fundo da logo para combinar com o fundo da página */
+    background-color: #ffffff; /* Fundo da logo para combinar com o fundo da página */
     border-radius: 8px;
 }
+.texto-complemento {
+    margin-left: -1550px;
+}
 
-nav {
+
+nav { 
     display: flex;
     gap: 20px;
 }
@@ -35,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-    color: black;
+    color: black; /*Muda quando passa o mouse em cima*/
     border-bottom: 2px solid #FFD700; /* Destaque com borda dourada */
 
 }
@@ -79,12 +83,15 @@ main {
     color: #fff;
     padding: 20px;
     text-align: center;
+    
 }
 
 .rodape .empresas p {
     margin: 10px 0;
     font-weight: bold;
-}
+    display: inline-flex;
+    padding: 4%;
+    }
 
 /* Responsividade */
 @media (max-width: 768px) {
@@ -116,6 +123,6 @@ main {
 /* Corpo da página */
 body {
     background-color: white; /* Cor de fundo da página */
-   
+    margin: 0;
     font-family: Arial, sans-serif;
 }
