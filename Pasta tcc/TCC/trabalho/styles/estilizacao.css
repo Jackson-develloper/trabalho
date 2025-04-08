@@ -142,6 +142,13 @@ body {
     font-weight: bold;
     color: black; /* Ajuste conforme a identidade visual */
 }
+/*Pagina "Nossa Causa"*/
 
+.Imagem-Marmita img{
+    width: 1300px;
+    border-radius: 8px;
+} 
+.Fotos-desastres{ display:inline-flex;}
+.Fotos-desastres img{width: 500px;}
 
 
