@@ -37,6 +37,7 @@ nav a {
 nav a:hover {
     color: black;
     border-bottom: 2px solid #FFD700; /* Destaque com borda dourada */
+
 }
 
 /* Estilização do conteúdo principal */
