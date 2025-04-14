@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: rgb(255, 174, 0); /* Fundo escuro */
+    background-color: rgb(255, 255, 255); /* Fundo escuro */
 }
 
 .logo-container img {
