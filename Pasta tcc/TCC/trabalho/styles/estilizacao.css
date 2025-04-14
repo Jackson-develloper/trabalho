@@ -150,5 +150,52 @@ body {
 } 
 .Fotos-desastres{ display:inline-flex;}
 .Fotos-desastres img{width: 500px;}
+.Fotos-desastres{padding-bottom: 100px;}
 
+.porque-brasil{
+    padding-bottom: 20px;
+}
 
+.texto1{
+    padding-bottom: 40px;
+}
+
+.porque-educacao{
+    padding-bottom: 20px;
+
+}
+
+.texto2{
+    padding-bottom: 40px;
+
+}
+
+.pessoas-carentes{
+    padding-bottom: 20px;
+ 
+}
+
+.texto3{
+    padding-bottom: 40px;
+
+}
+
+.Desastre-ambiental{
+    padding-bottom: 20px; 
+}
+
+.texto4{
+    padding-bottom: 40px;
+}
+
+.Como_mudamos_vidas{
+    padding-bottom: 20px;
+}
+
+.texto5{
+    padding-bottom: 90px;
+}
+
+.Imagem-Marmita{
+    padding-bottom: 90px;
+}
