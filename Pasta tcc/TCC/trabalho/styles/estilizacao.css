@@ -1,5 +1,6 @@
 /* Reset básico de margem e padding */
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: white; /* Fundo escuro */
+    background-color: rgb(255, 255, 255); /* Fundo escuro */
 }
 
 .logo-container img {
@@ -20,10 +21,23 @@
     background-color: #ffffff; /* Fundo da logo para combinar com o fundo da página */
     border-radius: 8px;
 }
+<<<<<<< HEAD
 .texto-complemento {
     margin-left: -659px;
+=======
+.texto-complemento1 {
+    margin-left: -1350px;
 }
-
+.texto-complemento2 {
+    margin-left: -1267px;
+}
+.texto-complemento3 {
+    margin-left: -1282px;
+}
+.texto-complemento4 {
+    margin-left: -1282px;
+>>>>>>> e7ce783f92a54b262c6701a63651dd2eef66246e
+}
 
 nav { 
     display: flex;
@@ -39,8 +53,9 @@ nav a {
 }
 
 nav a:hover {
-    color: black;
+    color: black; /*Muda quando passa o mouse em cima*/
     border-bottom: 2px solid #FFD700; /* Destaque com borda dourada */
+
 }
 
 /* Estilização do conteúdo principal */
@@ -52,7 +67,7 @@ main {
 /* Imagem de capa */
 .imagem-da-tela-inicial img {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1500px;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -124,4 +139,69 @@ body {
     background-color: white; /* Cor de fundo da página */
     margin: 0;
     font-family: Arial, sans-serif;
+}
+
+
+
+.texto-complemento {
+    margin-left: -1300px; /* Pequeno espaço entre a logo e o texto */
+    font-weight: bold;
+    color: black; /* Ajuste conforme a identidade visual */
+}
+/*Pagina "Nossa Causa"*/
+
+.Imagem-Marmita img{
+    width: 1300px;
+    border-radius: 8px;
+} 
+.Fotos-desastres{ display:inline-flex;}
+.Fotos-desastres img{width: 500px;}
+.Fotos-desastres{padding-bottom: 100px;}
+
+.porque-brasil{
+    padding-bottom: 20px;
+}
+
+.texto1{
+    padding-bottom: 40px;
+}
+
+.porque-educacao{
+    padding-bottom: 20px;
+
+}
+
+.texto2{
+    padding-bottom: 40px;
+
+}
+
+.pessoas-carentes{
+    padding-bottom: 20px;
+ 
+}
+
+.texto3{
+    padding-bottom: 40px;
+
+}
+
+.Desastre-ambiental{
+    padding-bottom: 20px; 
+}
+
+.texto4{
+    padding-bottom: 40px;
+}
+
+.Como_mudamos_vidas{
+    padding-bottom: 20px;
+}
+
+.texto5{
+    padding-bottom: 90px;
+}
+
+.Imagem-Marmita{
+    padding-bottom: 90px;
 }
