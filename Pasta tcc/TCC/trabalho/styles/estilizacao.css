@@ -25,16 +25,16 @@
     margin-left: -659px;
 }
 .texto-complemento1 {
-    margin-left: -720px;
+    margin-left: -1300px;
 }
 .texto-complemento2 {
-    margin-left: -635px;
+    margin-left: -1267px;
 }
 .texto-complemento3 {
-    margin-left: -650px;
+    margin-left: -1282px;
 }
 .texto-complemento4 {
-    margin-left: -650px;
+    margin-left: -1282px;
 }
 
 nav { 
@@ -119,8 +119,31 @@ main {
     }
 
 /* Responsividade */
+@media (max-width: 900px) {
+    .container-cabecalho {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .Categoria-de-direcionamento {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 20px;
+        background-color: #333;
+    }
 
+    .Categoria-de-direcionamento img {
+        width: 80%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+}
 
 /* Corpo da página */
 body {
@@ -192,7 +215,7 @@ body {
 
 .Imagem-Marmita{
     padding-bottom: 90px;
-}
+}  
 
 .foto-portal img {
     width: 100%;
@@ -201,9 +224,9 @@ body {
     border-radius: 0px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
     .container-cabecalho {
-        flex-direction: column;
+        max-width: 1280px;
         padding: 10px;
     }
 
