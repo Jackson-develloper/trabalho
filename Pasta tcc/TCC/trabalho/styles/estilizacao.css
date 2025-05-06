@@ -25,16 +25,16 @@
     margin-left: -659px;
 }
 .texto-complemento1 {
-    margin-left: -1350px;
+    margin-left: -720px;
 }
 .texto-complemento2 {
-    margin-left: -1267px;
+    margin-left: -635px;
 }
 .texto-complemento3 {
-    margin-left: -1282px;
+    margin-left: -650px;
 }
 .texto-complemento4 {
-    margin-left: -1282px;
+    margin-left: -650px;
 }
 
 nav { 
@@ -44,7 +44,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #FFD700; /* Cor dourada */
+    color: #fcc00d; /* Cor dourada */
     font-weight: bold;
     padding: 10px;
     transition: color 0.3s ease, border-bottom 0.3s ease;
@@ -55,6 +55,19 @@ nav a:hover {
     border-bottom: 2px solid #FFD700; /* Destaque com borda dourada */
 
 }
+
+nav a.portal-apoio {
+
+    color:black; /* Cor do texto branca para contrastar com o fundo preto */
+}
+
+nav a.link1{color: black;}
+
+nav a.link2{color: rgb(255,153,0);}
+
+nav a.home{color:black;}
+
+
 
 /* Estilização do conteúdo principal */
 main {
@@ -106,31 +119,8 @@ main {
     }
 
 /* Responsividade */
-@media (max-width: 768px) {
-    .container-cabecalho {
-        flex-direction: column;
-        text-align: center;
-    }
 
-    .Categoria-de-direcionamento {
-        flex-direction: column;
-        gap: 20px;
-        padding: 0 20px;
-        background-color: #333;
-    }
 
-    .Categoria-de-direcionamento img {
-        width: 80%;
-    }
-
-    nav {
-        flex-direction: column;
-    }
-
-    nav a {
-        margin-bottom: 10px;
-    }
-}
 
 /* Corpo da página */
 body {
@@ -211,3 +201,42 @@ body {
     border-radius: 0px;
 }
 
+@media (max-width: 768px) {
+    .container-cabecalho {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .logo-container img {
+        width: 120px;
+    }
+
+    .texto-complemento {
+        text-align: center;
+        margin: 0;
+    }
+
+    .Categoria-de-direcionamento {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .Categoria-de-direcionamento img {
+        width: 90%;
+    }
+
+    .rodape .empresas p {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .Imagem-Marmita img {
+        width: 100%;
+    }
+
+    .Fotos-desastres img {
+        width: 100%;
+    }
+}
