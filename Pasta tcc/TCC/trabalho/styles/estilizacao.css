@@ -25,16 +25,16 @@
     margin-left: -659px;
 }
 .texto-complemento1 {
-    margin-left: -720px;
+    margin-left: -1300px;
 }
 .texto-complemento2 {
-    margin-left: -635px;
+    margin-left: -1267px;
 }
 .texto-complemento3 {
-    margin-left: -650px;
+    margin-left: -1282px;
 }
 .texto-complemento4 {
-    margin-left: -650px;
+    margin-left: -1282px;
 }
 
 nav { 
@@ -119,8 +119,31 @@ main {
     }
 
 /* Responsividade */
+@media (max-width: 900px) {
+    .container-cabecalho {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .Categoria-de-direcionamento {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 20px;
+        background-color: #333;
+    }
 
+    .Categoria-de-direcionamento img {
+        width: 80%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+}
 
 /* Corpo da página */
 body {
@@ -192,46 +215,5 @@ body {
 
 .Imagem-Marmita{
     padding-bottom: 90px;
-}
+}  
 
-
-
-@media (max-width: 768px) {
-    .container-cabecalho {
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .logo-container img {
-        width: 120px;
-    }
-
-    .texto-complemento {
-        text-align: center;
-        margin: 0;
-    }
-
-    .Categoria-de-direcionamento {
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        padding: 10px;
-    }
-
-    .Categoria-de-direcionamento img {
-        width: 90%;
-    }
-
-    .rodape .empresas p {
-        display: block;
-        padding: 10px 0;
-    }
-
-    .Imagem-Marmita img {
-        width: 100%;
-    }
-
-    .Fotos-desastres img {
-        width: 100%;
-    }
-}
