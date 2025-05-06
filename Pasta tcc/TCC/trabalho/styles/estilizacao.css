@@ -119,31 +119,8 @@ main {
     }
 
 /* Responsividade */
-@media (max-width: 700px) {
-    .container-cabecalho {
-        flex-direction: column;
-        text-align: center;
-    }
 
-    .Categoria-de-direcionamento {
-        flex-direction: column;
-        gap: 20px;
-        padding: 0 20px;
-        background-color: #333;
-    }
 
-    .Categoria-de-direcionamento img {
-        width: 80%;
-    }
-
-    nav {
-        flex-direction: column;
-    }
-
-    nav a {
-        margin-bottom: 10px;
-    }
-}
 
 /* Corpo da página */
 body {
@@ -219,3 +196,42 @@ body {
 
 
 
+@media (max-width: 768px) {
+    .container-cabecalho {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .logo-container img {
+        width: 120px;
+    }
+
+    .texto-complemento {
+        text-align: center;
+        margin: 0;
+    }
+
+    .Categoria-de-direcionamento {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .Categoria-de-direcionamento img {
+        width: 90%;
+    }
+
+    .rodape .empresas p {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .Imagem-Marmita img {
+        width: 100%;
+    }
+
+    .Fotos-desastres img {
+        width: 100%;
+    }
+}
