@@ -194,7 +194,7 @@ body {
     padding-bottom: 90px;
 }
 
-.foto_portal img {
+.foto-portal img {
     width: 100%;
     max-width: 1980px;
     height: auto;
@@ -239,4 +239,9 @@ body {
     .Fotos-desastres img {
         width: 100%;
     }
+}
+
+.texto-portal-ajuda {
+    padding-bottom: 40px;
+
 }
