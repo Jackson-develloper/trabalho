@@ -204,5 +204,10 @@ body {
     padding-bottom: 90px;
 }
 
-
+.foto_portal img {
+    width: 100%;
+    max-width: 1980px;
+    height: auto;
+    border-radius: 0px;
+}
 
