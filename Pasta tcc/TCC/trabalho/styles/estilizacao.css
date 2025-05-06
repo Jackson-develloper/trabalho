@@ -224,9 +224,9 @@ body {
     border-radius: 0px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
     .container-cabecalho {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 10px;
     }
 
