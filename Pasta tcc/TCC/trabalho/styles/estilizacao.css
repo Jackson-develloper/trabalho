@@ -226,7 +226,7 @@ body {
 
 @media (max-width: 1440px) {
     .container-cabecalho {
-        flex-direction: column-reverse;
+        max-width: 1280px;
         padding: 10px;
     }
 
