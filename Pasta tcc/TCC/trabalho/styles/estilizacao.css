@@ -56,6 +56,19 @@ nav a:hover {
 
 }
 
+nav a.portal-apoio {
+
+    color:black; /* Cor do texto branca para contrastar com o fundo preto */
+}
+
+nav a.link1{color: black;}
+
+nav a.link2{color: rgb(255,153,0);}
+
+nav a.home{color:black;}
+
+
+
 /* Estilização do conteúdo principal */
 main {
     text-align: center;
@@ -106,7 +119,7 @@ main {
     }
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 1500px) {
     .container-cabecalho {
         flex-direction: column;
         text-align: center;
