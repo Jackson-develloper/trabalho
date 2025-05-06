@@ -44,7 +44,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #FFD700; /* Cor dourada */
+    color: #fcc00d; /* Cor dourada */
     font-weight: bold;
     padding: 10px;
     transition: color 0.3s ease, border-bottom 0.3s ease;
