@@ -222,6 +222,7 @@ body {
     max-width: 1980px;
     height: auto;
     border-radius: 0px;
+    margin-top: -70px;
 }
 
 @media (max-width: 1440px) {
@@ -266,5 +267,16 @@ body {
 
 .texto-portal-ajuda {
     padding-bottom: 40px;
+    margin-top: 30px;
+    font-size: 20px;
 
+}
+
+.contato-central { 
+    color: rgb(255,153,0);
+    margin-top: 100px;
+}
+
+.numero-central{
+    color: rgb(136, 135, 135)
 }
