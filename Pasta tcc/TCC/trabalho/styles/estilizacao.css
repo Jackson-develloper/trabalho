@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 /* Define o cabeçalho */
 .container-cabecalho {
     display: flex;
@@ -101,6 +102,8 @@ main {
     border-radius: 8px;
     
 }
+
+.Frase-Motiva{color: #333; line-height: 1.5;}
 
 /* Rodapé */
 .rodape {
@@ -224,47 +227,5 @@ body {
     border-radius: 0px;
 }
 
-@media (max-width: 1440px) {
-    .container-cabecalho {
-        max-width: 1280px;
-        padding: 10px;
-    }
 
-    .logo-container img {
-        width: 120px;
-    }
-
-    .texto-complemento {
-        text-align: center;
-        margin: 0;
-    }
-
-    .Categoria-de-direcionamento {
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        padding: 10px;
-    }
-
-    .Categoria-de-direcionamento img {
-        width: 90%;
-    }
-
-    .rodape .empresas p {
-        display: block;
-        padding: 10px 0;
-    }
-
-    .Imagem-Marmita img {
-        width: 100%;
-    }
-
-    .Fotos-desastres img {
-        width: 100%;
-    }
-}
-
-.texto-portal-ajuda {
-    padding-bottom: 40px;
-
-}
+   
