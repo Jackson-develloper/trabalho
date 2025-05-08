@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 /* Define o cabeçalho */
 .container-cabecalho {
     display: flex;
@@ -101,6 +102,8 @@ main {
     border-radius: 8px;
     
 }
+
+.Frase-Motiva{color: #333; line-height: 1.5;}
 
 /* Rodapé */
 .rodape {
@@ -225,12 +228,8 @@ body {
     margin-top: -70px;
 }
 
-@media (max-width: 1440px) {
-    .container-cabecalho {
-        max-width: 1280px;
-        padding: 10px;
-    }
 
+<<<<<<< HEAD
     .logo-container img {
         width: 120px;
     }
@@ -280,3 +279,6 @@ body {
 .numero-central{
     color: rgb(136, 135, 135)
 }
+=======
+   
+>>>>>>> 1baee67789e561840ba8a04ef8b6f133a8191eca
